@@ -27,6 +27,9 @@
  ` $ kubect create -f service.yaml `
 ## After few minutes loadbalancer service would be created and you can get the EXTERNAL ip adderss by using
 ` $ kubect get svc `
+![LOADBALANCER](/images/service.png)
+
 ## Paste this IP ADDRESS in the URL and you will be able to see the output of the app immediately
 
 ### Heres a example output
+![OUTPUT](/images/output.png)
