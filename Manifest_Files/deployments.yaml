@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: nodeapp
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        name: nodeapp
+    spec:
+      containers:
+      - name: nodeapp
+        image: viveksonar/nodeweb:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8080
