@@ -12,7 +12,7 @@
 ## It will return 
 ` Hello World ` 
 ## 5 Containerise the app using docker build command 
-#### (please use your own docker hub username instead f $YOUR_DOCKER_USERNAME)
+#### (please use your own docker hub username instead of $YOUR_DOCKER_USERNAME)
 ` $ docker build -t $YOUR_DOCKER_USERNAME/nodewebapp ` 
 ## 6 Push this image to Docker hub to use it in Kubernetes deployment process by
 ` $ docker push $YOUR_DOCKER_USERNAME/nodewebapp ` 
